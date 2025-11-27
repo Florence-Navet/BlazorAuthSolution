@@ -1,0 +1,24 @@
+﻿@page "/"
+@* @inject BlazorAuth.Components.Services.ApiService ApiService *@
+
+
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<BlazorAuth.Components.Home />
+
+
+@* <button @onclick="TestApi">Tester API</button>
+<p>@result</p>
+
+@code {
+    private string result = "";
+
+    private async Task TestApi()
+    {
+        result = await ApiService.CheckApiAsync();
+    }
+} *@
+

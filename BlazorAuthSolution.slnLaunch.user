@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nouveau profil",
+    "Projects": [
+      {
+        "Path": "BlazorAuth.Api\\BlazorAuth.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "BlazorAuth.Mobile\\BlazorAuth.Mobile.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

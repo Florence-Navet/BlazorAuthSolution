@@ -1,0 +1,15 @@
+﻿@inject BlazorAuth.Components.Services.ApiService ApiService
+
+
+<button @onclick="TestApi">Tester API</button>
+<p>@result</p>
+
+@code {
+    private string result = "";
+
+    private async Task TestApi()
+    {
+        result = await ApiService.CheckApiAsync();
+    }
+}
+
