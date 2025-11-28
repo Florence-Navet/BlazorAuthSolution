@@ -22,5 +22,10 @@ and probably
 ```
 MSAL
 ```
+Créer un singleton IPublicClientApplication avec la configuration appropriée.  
+1.	Déclencher la connexion  
+Utiliser AcquireTokenInteractive pour lancer le flux d’authentification.  
+2.	Gérer le callback et le stockage du token  
+Utiliser le token pour vos appels API.    
 
 
