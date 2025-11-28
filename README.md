@@ -8,3 +8,19 @@ Microsoft.AspNetCore.Components.WebAssembly.DevServer (9.0.9)
 Microsoft.Authentication.WebAssembly.Msal (9.0.10)
 Microsoft.Extentions.Http(9.0.10)
 ```
+
+To put microsoft authentification in MAui, we need the packages :   
+```
+Microsoft.AspNetCore.Components.WebView.MAui (9.0.82)
+Microsoft.Extension.Logging.Debugg(9.0.5)
+Microsoft.Identity.Client(4.77.1)
+Microsoft.Maui.Controls (9.0.82)
+```
+
+and probably  
+
+```
+MSAL
+```
+
+
